@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Словарь</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <form>
+            <h1>Добавление слов</h1>
+            <div class="wrap">
+                <input type="text" placeholder="English word" id="engword">
+                <input type="text" placeholder="Russian word" id="rusword">
+                <button id="add">Add words</button>
+            </div>
+        </form>
+
+        <button id="btnTest">Test</button>
+
+        <div id="testModal">
+            <h2></h2>
+            <div class="testWrap">
+                <input type="text" id="answer">
+                <button id="check">Check</button>
+                <strong id="points">0 / 5</strong>
+            </div>
+        </div>
+    </div>
+    <script src="script/index.js"></script>
+</body>
+
+</html>

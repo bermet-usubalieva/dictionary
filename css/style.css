@@ -1,0 +1,71 @@
+body {
+    background-color: #0b0C10;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #66FCF1;
+}
+
+h2 {
+    text-align: justify;
+}
+
+h2,
+#points {
+    color: #45A29E;
+}
+
+.wrap {
+    display: flex;
+    gap: 20px;
+}
+
+#engword,
+#rusword,
+#answer {
+    background-color: #0b0C10;
+    border-color: #66FCF1;
+    min-width: 180px;
+    height: 36px;
+    color: #66FCF1;
+}
+
+#add,
+#check {
+    background-color: #66FCF1;
+    border-color: #66FCF1;
+    color: #1F2833;
+    min-width: 120px;
+    font-size: 15px;
+}
+
+#btnTest {
+    background-color: #45A29E;
+    border: none;
+    width: 120px;
+    height: 36px;
+    margin-bottom: 30px;
+}
+
+#testModal {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#check {
+    height: 42px;
+    margin: 0 20px;
+}
